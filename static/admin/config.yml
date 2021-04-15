@@ -72,13 +72,13 @@ collections:
           required: false,
           summary: '{{fields.optionone}}',
           fields:
-            - {label: 'Quote', name: 'quote', widget: 'string', default: "Everything is awesome!"}
+            - { label: 'Quote', name: 'quote', widget: 'string', default: 'Everything is awesome!' }
             - label: Author
               name: author
               widget: object
               fields:
-                - {label: 'Name', name: 'name', widget: 'string', default: "Emmet"}
-                - {label: 'Avatar', name: 'avata'r, widget: 'image', default: "/img/emmet.jpg"}
+                - {label: 'Name', name: 'name', widget: 'string', default: 'Emmet'}
+                - {label: 'Avatar', name: 'avata'r, widget: 'image', default: '/img/emmet.jpg'}
         }
       - { label: 'Title', name: 'title', widget: 'string', required: true }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
