@@ -70,14 +70,8 @@ collections:
           name: 'testeweb',
           widget: 'list',
           required: false,
-          summary: '{{fields.author.name}}',
-          fields:
-            - label: 'Author'
-              name: 'author'
-              widget: 'object'
-              fields:
-                - {label: 'Name', name: 'name', widget: 'string', default: 'Emmet'}
-                - {label: 'Avatar', name: 'avata'r, widget: 'image', default: '/img/emmet.jpg'}
+          summary: '{{fields.name}}',
+          field: {label: 'Name', name: 'name', widget: 'string', default: 'Emmet'}
         }
       - { label: 'Title', name: 'title', widget: 'string', required: true }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
