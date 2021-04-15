@@ -72,9 +72,9 @@ collections:
           required: false,
           summary: '{{fields.author.name}}',
           fields:
-            - label: Author
-              name: author
-              widget: object
+            - label: 'Author'
+              name: 'author'
+              widget: 'object'
               fields:
                 - {label: 'Name', name: 'name', widget: 'string', default: 'Emmet'}
                 - {label: 'Avatar', name: 'avata'r, widget: 'image', default: '/img/emmet.jpg'}
