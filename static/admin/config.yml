@@ -68,9 +68,17 @@ collections:
       - {
           label: 'Teste teste',
           name: 'testeweb',
-          widget: 'checkbox',
-          default: 'web one',
-          options: [{ label: 'web one', value: 'web one' }, { label: 'app one', value: 'app one' }],
+          widget: 'list',
+          required: false,
+          summary: '{{fields.optionone}}',
+          fields:
+            - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
+            - label: Author
+              name: author
+              widget: object
+              fields:
+                - {label: Name, name: name, widget: string, default: "Emmet"}
+                - {label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg"}
         }
       - { label: 'Title', name: 'title', widget: 'string', required: true }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
