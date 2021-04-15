@@ -66,10 +66,10 @@ collections:
           options: [{ label: 'Animals', value: 'animals' }, { label: 'Food', value: 'food' }],
         }
       - {
-          label: 'Teste Category',
-          name: 'category',
+          label: 'Teste teste',
+          name: 'testeweb',
           widget: 'checkbox',
-          default: 'web',
+          default: 'web one',
           options: [{ label: 'web one', value: 'web one' }, { label: 'app one', value: 'app one' }],
         }
       - { label: 'Title', name: 'title', widget: 'string', required: true }
