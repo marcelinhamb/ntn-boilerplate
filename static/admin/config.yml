@@ -65,6 +65,13 @@ collections:
           default: 'animals',
           options: [{ label: 'Animals', value: 'animals' }, { label: 'Food', value: 'food' }],
         }
+      - {
+          label: 'Teste Category',
+          name: 'category',
+          widget: 'checkbox',
+          default: 'web',
+          options: [{ label: 'web one', value: 'web one' }, { label: 'app one', value: 'app one' }],
+        }
       - { label: 'Title', name: 'title', widget: 'string', required: true }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: 'Cover Image', name: 'cover', widget: 'image', required: false, allow_multiple: false }
