@@ -85,3 +85,13 @@ collections:
           summary: '{{fields.image}}',
           field: { label: 'Image', name: 'image', widget: 'image' },
         }
+      - {
+          label: 'Midia Video/Gif',
+          name: 'midiaVideoGif',
+          width: 'file',
+          media_library: {
+            config: {
+              multiple: true
+            }
+          }
+        }
